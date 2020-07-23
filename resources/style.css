@@ -4,6 +4,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*-----------HEADER--------*/
 
 header {
@@ -56,5 +60,41 @@ align-items: center;
 .navbar .no-margin {
     background-color: whitesmoke;
     padding-right: 24px;
+}
+
+/*-------Main Banner-------*/
+.main-banner {
+    display: flex;
+    margin: 32px 0 32px 24px;
+}
+.main-banner .image-container{
+    background-image: url(../Assets/images/banner.jpg);
+    width: 60%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-banner .text-container {
+    margin-left: 24px;
+    height: auto;
+    width: 400px;
+    padding-right: 10%;
+}
+
+.main-banner .text-container h1 {
+    font-weight: 900;
+}
+
+.main-banner .text-container h2 {
+    font-weight: normal;
+}
+
+.main-banner .text-container h3 {
+    width: 100%;
+    background-color: darkgray;
+    padding: 8px 0;
+    text-align: center;
+    color: white;
 }
 
