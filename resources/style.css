@@ -97,4 +97,40 @@ align-items: center;
     text-align: center;
     color: white;
 }
+/*-----------Special Events---------*/
+.information-banner {
+    background-color: whitesmoke;
+    display: inline-flex;
+}
+.information-banner .keep-practicing {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
 
+.information-banner .keep-practicing .image-container {
+    width: 100% ;
+    height: 300px;
+    background-image: url(../Assets/images/information-main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+    
+}
+
+.information-banner .keep-practicing .text-container h1,
+p {
+    align-items: center;
+    align-content: space-around;
+}
+
+.event-links .orientation .image-container {
+    width: 35%;
+    height: auto;
+    background-image: url(../Assets/images/information-orientation.jpg);
+}
